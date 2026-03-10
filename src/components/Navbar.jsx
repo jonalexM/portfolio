@@ -13,7 +13,7 @@ export default function Navbar({ dark, setDark }) {
               {section}
             </a>
           ))}
-          <button
+          {/* <button
             onClick={() => setDark(!dark)}
             aria-label="Toggle dark mode"
             className="p-1.5 rounded-md text-gray-300 hover:bg-white/10 transition-colors duration-150"
@@ -27,7 +27,7 @@ export default function Navbar({ dark, setDark }) {
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
               </svg>
             )}
-          </button>
+          </button> */}
         </div>
       </nav>
     </header>
