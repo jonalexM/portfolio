@@ -26,7 +26,6 @@ export default function App() {
   return (
     <div
       className="min-h-screen bg-cover bg-center bg-fixed text-gray-100"
-      style={{ backgroundImage: "url('/bg.gif')" }}
     >
       <div className="fixed inset-0 z-0 bg-gray-950/70 pointer-events-none" />
       <div className="relative z-10">
