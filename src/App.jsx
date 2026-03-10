@@ -38,7 +38,7 @@ export default function App() {
         </main>
         <Footer />
       </div>
-      <MusicPlayer />
+      {/* <MusicPlayer /> */}
     </div>
   )
 }
