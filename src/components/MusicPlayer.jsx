@@ -42,7 +42,7 @@ export default function MusicPlayer() {
 
   return (
     <>
-      <audio ref={audioRef} src="/music/uzi.wav" loop preload="none" />
+      <audio ref={audioRef} src="https://res.cloudinary.com/dy5th0iv4/video/upload/v1773323759/uzi_umxnpn.mp3" loop preload="none" />
       <div
         className="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-2"
         onMouseEnter={() => setShowVolume(true)}
