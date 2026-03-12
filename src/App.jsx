@@ -30,6 +30,7 @@ export default function App() {
         loop
         muted
         playsInline
+        preload="auto"
         className="fixed inset-0 w-full h-full object-cover -z-10"
         src="https://res.cloudinary.com/dy5th0iv4/video/upload/v1773324636/asd_zpwpqu.mp4"
       />
