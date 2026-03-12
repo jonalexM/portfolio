@@ -24,10 +24,16 @@ export default function App() {
   }, [dark])
 
   return (
-    <div
-      className="min-h-screen bg-cover bg-center bg-fixed text-gray-100"
-    >
-      <div className="fixed inset-0 z-0 bg-gray-950/70 pointer-events-none" />
+    <div className="min-h-screen text-gray-100">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="fixed inset-0 w-full h-full object-cover -z-10"
+        src="https://res.cloudinary.com/dy5th0iv4/video/upload/v1773324636/asd_zpwpqu.mp4"
+      />
+      <div className="fixed inset-0 bg-gray-950/70 pointer-events-none -z-10" />
       <div className="relative z-10">
         <Navbar dark={dark} setDark={setDark} />
         <main className="max-w-3xl mx-auto px-6 pt-24">
@@ -38,7 +44,7 @@ export default function App() {
         </main>
         <Footer />
       </div>
-      {/* <MusicPlayer /> */}
+      <MusicPlayer />
     </div>
   )
 }
