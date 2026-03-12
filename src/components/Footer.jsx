@@ -4,12 +4,10 @@ export default function Footer() {
       <div className="flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-gray-400">
         <span>Jon Alexander N. Maravilla</span>
         <a
-          href="https://github.com/jlexm"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:jonalexmrvs@gmail.com"
           className="hover:text-gray-200 transition-colors duration-150"
         >
-          github.com/jlexm
+          jonalexmrvs@gmail.com
         </a>
       </div>
     </footer>
